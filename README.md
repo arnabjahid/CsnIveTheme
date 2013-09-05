@@ -1,4 +1,4 @@
 CsnIveTheme
-===========
-
-Theme for our modules
+****************
+What is CsnIveTheme>
+CsnIveTheme is a theme for our modules.
