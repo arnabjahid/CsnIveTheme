@@ -1,15 +1,14 @@
 {
-	"name": 		    "coolcsn/csn-ive-theme"
-	"description":		"Theme for our modules."
-	"type":				"library"
-	"license":			"BSD-3-Clause"
-	"homepage":			"https://github.com/coolcsn/CsnIveTheme"
+	"name": 		    "coolcsn/csn-ive-theme",
+	"description":		"Theme for our modules.",
+	"type":				"library",
+	"license":			"BSD-3-Clause",
+	"homepage":			"https://github.com/coolcsn/CsnIveTheme",
 	"keywords": [
-		"zf2"
-		"csn-ive-theme"
-		"CsnIveTheme"
+		"zf2",
+		"csn-ive-theme",
+		"CsnIveTheme",
 		"doctrine"
-		
 	],
 	
 	"authors":[
@@ -21,15 +20,13 @@
 	],
 	
 	"minimum-stability": "dev",
-	"require":{
-			"php": ">=5.3.3",
-			"doctrine/doctrine-orm-module": ">=0.7"
-	},
-	"autoload":	{
-		"psr-0":{
-			"CsnIveTheme\\": "src/"
-			}
-		}
+    "require": {
+        "php": ">=5.3.3",
+        "doctrine/doctrine-orm-module": ">=0.7"
+    },
+    "autoload": {
+        "psr-0": {
+            "CsnUser\\": "src/"
+        }
+    }
 }
-	
-	
