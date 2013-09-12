@@ -23,7 +23,7 @@ Installation
 
 Configuration
 -------------
-Change directory of the file `loader.php` from `./vendor/coolcsn/csn-ive-theme/loader.php` to `./public/loader.php`. This php file is the connection between `./vendor/coolcsn/csn-ive-theme/view/layout/index.phtml` and `./vendor/coolcsn/csn-ive-theme/assets`. In folder `assets` are located *.css, *.png/*.jpg and *.js files.
+Change directory of the file `loader.php` from `./vendor/coolcsn/csn-ive-theme/loader.php` to `./public/loader.php`. This php file is the connection between *./vendor/coolcsn/csn-ive-theme/view/layout/index.phtml* and *./vendor/coolcsn/csn-ive-theme/assets*. In folder *assets* are located **.css, *.png/*.jpg and *.js* files.
 
 Dependencies
 ------------
