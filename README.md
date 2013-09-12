@@ -36,7 +36,7 @@ This Module depends on the following Modules:
 
 Recommends
 ----------
--[coolcsn/CsnUser](https://github.com/coolcsn/CsnUser) - Module for Authentication;
+- [coolcsn/CsnUser](https://github.com/coolcsn/CsnUser) - Module for Authentication;
 
 - [coolcsn/CsnAuthorization](https://github.com/coolcsn/CsnAuthorization) - Module for Authorization;
  
