@@ -1,6 +1,6 @@
 <?php
 //echo '<h1>I am in CsnIveTheme!</h1>';
-
+namespace CsnIveTheme;
 return array(
   'view_manager' => array(
         'display_not_found_reason' => true,
