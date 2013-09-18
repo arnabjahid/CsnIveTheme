@@ -25,7 +25,24 @@ Configuration
 -------------
 1. Change directory of the file `loader.php` from `./vendor/coolcsn/csn-ive-theme/loader.php` to `./public/loader.php`. This php file is the connection between *./vendor/coolcsn/csn-ive-theme/view/layout/index.phtml* and *./vendor/coolcsn/csn-ive-theme/assets*. In folder *assets* are located *.css, .png/.jpg and .js* files.
 
-2. Change the row 13 of the file `loader.php` from `$path = realpath(dirname(__DIR__)) . DIRECTORY_SEPARATOR . 'vendor' . DIRECTORY_SEPARATOR . 'CsnIveTheme' . DIRECTORY_SEPARATOR . 'assets';` to `$path = realpath(dirname(__DIR__)) . DIRECTORY_SEPARATOR . 'vendor' . DIRECTORY_SEPARATOR . 'coolcsn' . DIRECTORY_SEPARATOR . 'csn-ive-theme' . DIRECTORY_SEPARATOR . 'assets';`.
+2. Change the row 13 of the file `loader.php` from:
+
+```
+$path = realpath(dirname(__DIR__))
+ . DIRECTORY_SEPARATOR . 'vendor'
+ . DIRECTORY_SEPARATOR . 'CsnIveTheme'
+ . DIRECTORY_SEPARATOR . 'assets'; 
+```
+
+to
+ 
+ ```
+ $path = realpath(dirname(__DIR__)) 
+ . DIRECTORY_SEPARATOR . 'vendor' 
+ . DIRECTORY_SEPARATOR . 'coolcsn' 
+ . DIRECTORY_SEPARATOR . 'csn-ive-theme' 
+ . DIRECTORY_SEPARATOR . 'assets';
+ ```
 
 3. Now your old theme is replaced by CsnIveTheme.
 
