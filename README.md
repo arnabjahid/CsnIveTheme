@@ -44,8 +44,6 @@ to
  . DIRECTORY_SEPARATOR . 'assets';
  ```
 
-3. Now your old theme is replaced by CsnIveTheme.
-
 Dependencies
 ------------
 
